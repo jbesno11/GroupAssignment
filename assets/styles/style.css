@@ -1,62 +1,88 @@
-/* this is a comment in css*/
 
-.red{
-    background-color: red;
-}
-
-.blue{
-    background-color: lightblue;
-}
-
-body{
-    background-color: #95774a;
-}
-
-.hero{
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/62/Drip_Coffee_Bangkok.jpg);
-
-}
-
-.hero h1{
-    color: white;
-}
-
-.mission{
-    background-color: #323232;
-    color: white;
-}
-
-.mission p{
-    font-family: sans-serif;
-    font-size: 1.8em;
-
-}
-
-
-.features{
-    background-color: #323232;
-    color: white;
-}
-
-.features p{
-    padding-top: 1em;
+.carousel{
     text-align: center;
-}
-
-.features img{
-    border-radius: 2em;
+   
 }
 
 
-.video{
-    width: 50%;
+.firstTextBlock p{
+    text-align: center;
+    padding-left: 23%;
+    padding-right: 23%;
+    font-size: x-small;
+}
+
+.firstTextBlock h3{
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-bottom: 2%;
+}
+
+.vid{
+   width: 1000px;
+    padding: 10%;
+    justify-content: center;
+}
+
+.carousel h1{
+    z-index: 5;
+    top:30px;
+    color: white;    
 }
 
 
-.footer{
-    background-color: aliceblue;
-}
+  .rightSide {
 
-.footer ul{
-    list-style: none;
-}
+    text-align: right;
+    color: green;
+
+  }
+
+  .infoText{
+    padding: 10%;
+    margin: 0%;
+    padding-top: 5%;
+
+  }
+
+
+  .leftImg img{
+    padding-left: 25%;
+    
+  }
+
+  .carousel-caption {
+    font-size: x-large;
+    position: absolute;
+    top: 50%;
+  }
+
+
+  .carousel-indicators{
+    border-radius: 50%;
+    
+  }
+
+  .container{
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-top: 0%;
+    padding-top: 0%;
+
+
+  }
+
+ .rightLeashes{
+  width: 275px;
+ }
+
+
+ .bottom{
+  width: 2750px;
+
+ }
+
+
+
